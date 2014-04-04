@@ -1,7 +1,7 @@
 md2html
 =======
 
-Created by [Ed Botzum](mailto:contact@edbotz.us)
+Created by Ed Botzum
 
 md2html is a simple command line utility that generates html from mardown by combining the github-flavored-mardown module with [Andy Ferra's css](https://gist.github.com/andyferra/2554919#file-github-css).
 
@@ -11,7 +11,7 @@ Install
 -------
 
 ```bash
-npm install md2html -g
+npm install ghmd2html -g
 ```
 
 Change Log

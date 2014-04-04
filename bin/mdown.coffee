@@ -1,6 +1,6 @@
 markdown = require __dirname + "/../lib/Markdown.coffee"
 
-VERSION = '0.1.0'
+VERSION = '0.2.3'
 
 display_help = ->
   console.log '--------------------------------------------'

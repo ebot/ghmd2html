@@ -1,6 +1,6 @@
 {
   "name": "ghmd2html",
-  "version": "0.1.0",
+  "version": "0.2.3",
   "description": "Converts the specified markdown file to html.",
   "main": "./bin/ghmd2html",
   "bin": {
