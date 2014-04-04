@@ -1,0 +1,24 @@
+{
+  "name": "ghmd2html",
+  "version": "0.1.0",
+  "description": "Converts the specified markdown file to html.",
+  "main": "./bin/ghmd2html",
+  "bin": {
+    "md2html": "./bin/ghmd2html"
+  },
+  "dependencies": {
+    "github-flavored-markdown": "~1.0.1",
+    "coffee-script": "~1.7.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ebot/ghmd2html.git"
+  },
+  "bugs": "https://github.com/ebot/ghmd2html/issues",
+  "author": "Ed Botzum",
+  "license": "MIT",
+  "readmeFilename": "README.md"
+}
