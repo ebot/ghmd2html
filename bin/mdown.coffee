@@ -1,13 +1,13 @@
 markdown = require __dirname + "/../lib/Markdown.coffee"
 
-VERSION = '0.3.0'
+VERSION = '0.3.1'
 
 display_help = ->
   console.log '--------------------------------------------'
   console.log "             md2html - #{VERSION}"
   console.log '--------------------------------------------'
   console.log "\nConverts the specified mdown file to html.\n"
-  console.log "  Example   mdown [file_name]\n"
+  console.log "  Example   md2html [file_name]\n"
   console.log '  --help    Displays this help menu.'
   console.log '  --version Displays the program\'s version.'
 

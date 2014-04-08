@@ -5,6 +5,7 @@ fs     = require 'fs'
 marked.setOptions(
   highlight: (code) ->
     require('highlight.js').highlightAuto(code).value
+  langPrefix: ''
   )
 
 class Markdown
@@ -17,7 +18,8 @@ class Markdown
 
   read_mdown = (md_file) ->
     fs.readFileSync( md_file ).toString() +
-    '<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>'
+    '<script src="http://yandex.st/highlightjs/8.0/highlight.min.js"></script>' +
+    '<script>hljs.initHighlightingOnLoad();</script>'
 
   convert: (md_file) ->
     html_file = md_file.split('.')[0] + '.html'
