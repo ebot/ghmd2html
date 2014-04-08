@@ -17,9 +17,14 @@ npm install ghmd2html -g
 Change Log
 ------------------
 
-### 1.0.0
+### 0.3.0
 
- * Initial build of the utility.
+  * Rendering Engine Updated to marked.
+  * Highlight.js included for highlighting with solarized dark.
+
+### 0.2.3
+
+  * Initial release of the utility.
 
 License
 ------------------
