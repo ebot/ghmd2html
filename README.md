@@ -14,6 +14,13 @@ Install
 npm install ghmd2html -g
 ```
 
+Usage
+-------
+
+```bash
+md2html your_markdown_filename.md
+```
+
 Change Log
 ------------------
 
