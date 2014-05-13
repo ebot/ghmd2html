@@ -2,7 +2,7 @@ program = require 'commander'
 markdown = require __dirname + "/../lib/Markdown.coffee"
 
 program
-  .version('0.3.5')
+  .version('0.3.6')
   .option('-o, --output <value>', 'Specify the directory to output to.')
   .parse(process.argv)
 

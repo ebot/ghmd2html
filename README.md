@@ -24,6 +24,10 @@ md2html your_markdown_filename.md
 Change Log
 ------------------
 
+### 0.3.6
+
+  * BUGFIX: Write out the File that is Being Converted
+
 ### 0.3.5
 
   * Support for wildcards added - aka *.md or *.markdown.
