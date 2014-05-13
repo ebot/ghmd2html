@@ -35,10 +35,9 @@ class Markdown
         for file in files.filter( matching_ext )
           html_file = out_dir + '/' + file.split('.')[0] + '.html'
           html      = marked read_mdown("#{dir}/#{file}")
-
+          console.log "  Converting #{file} to #{html_file}"
           fs.writeFile html_file, read_css() + html, (err)->
-            console.log err if err
-            console.log "  Converted #{file} to #{html_file}"
+            console.log "  #{err}" if err
     else
       html_file = out_dir + '/' + md_file.split('.')[0] + '.html'
       html      = marked read_mdown(md_file)
