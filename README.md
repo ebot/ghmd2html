@@ -24,6 +24,10 @@ md2html your_markdown_filename.md
 Change Log
 ------------------
 
+### 0.3.7
+
+  * Upgraded marked and coffeescript libraries
+
 ### 0.3.6
 
   * BUGFIX: Write out the File that is Being Converted
